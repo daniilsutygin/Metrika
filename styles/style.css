@@ -1,0 +1,70 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: -0.03em;
+  background-color: #F5F5F5;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+h1 {
+  width: 956px;
+  margin-top: 66px;
+  margin-bottom: 30px;
+
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.interior {
+  position: relative;
+  width: 1150px;
+  height: 500px;
+  margin-bottom: 154px;
+
+  background-image: url('./../resources/header-bg.jpg');
+}
+
+.image-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+
+  font-size: 20px;
+  color: pink;
+}
+
+h2 {
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.desc {
+  margin-bottom: 30px;
+  widows: 1048px;
+
+  font-size: 45px;
+}
+
+.btn {
+  display: block;
+  width: 255px;
+  height: 67px;
+  border-radius: 5px;
+  margin-bottom: 150px;
+
+  text-align: center;
+  line-height: 67px;
+  text-decoration: none;
+
+  color: white;
+  background-color: #AD1818;
+
+}
