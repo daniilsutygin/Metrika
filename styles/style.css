@@ -1,6 +1,5 @@
 body {
   font-family: 'Manrope', sans-serif;
-  letter-spacing: -0.03em;
   background-color: #F5F5F5;
 }
 
@@ -50,6 +49,7 @@ h2 {
   margin-bottom: 30px;
   widows: 1048px;
 
+  letter-spacing: -0.03em;
   font-size: 45px;
 }
 
