@@ -4,14 +4,14 @@ body {
 }
 
 .container {
-  max-width: 1150px;
+  width: 1150px;
   margin: 0 auto;
 }
 
 h1 {
-  width: 956px;
   margin-top: 66px;
   margin-bottom: 30px;
+  width: 956px;
 
   font-size: 60px;
   line-height: 60px;
@@ -21,9 +21,9 @@ h1 {
 
 .interior {
   position: relative;
+  margin-bottom: 154px;
   width: 1150px;
   height: 500px;
-  margin-bottom: 154px;
 
   background-image: url('./../resources/header-bg.jpg');
 }
@@ -35,19 +35,20 @@ h1 {
   width: 430px;
 
   font-size: 20px;
-  color: pink;
+  color: #fff;
 }
 
 h2 {
   margin-bottom: 30px;
 
   font-size: 18px;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
 }
 
 .desc {
   margin-bottom: 30px;
-  widows: 1048px;
+  width: 1048px;
 
   letter-spacing: -0.03em;
   font-size: 45px;
@@ -55,13 +56,14 @@ h2 {
 
 .btn {
   display: block;
+  margin-bottom: 150px;
   width: 255px;
   height: 67px;
   border-radius: 5px;
-  margin-bottom: 150px;
 
   text-align: center;
   line-height: 67px;
+  letter-spacing: -0.03em;
   text-decoration: none;
 
   color: white;
