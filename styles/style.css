@@ -22,7 +22,7 @@ h1 {
   color: #121212;
 }
 
-.interior {
+.header__img {
   position: relative;
   width: 1150px;
   height: 500px;
@@ -31,7 +31,7 @@ h1 {
   background-image: url('./../resources/header-bg.jpg');
 }
 
-.image-text {
+.header__text {
   position: absolute;
   left: 40px;
   bottom: 40px;
