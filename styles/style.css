@@ -1,6 +1,5 @@
 body {
   font-family: 'Manrope', sans-serif;
-  letter-spacing: -0.03em;
   background-color: #F5F5F5;
 }
 
@@ -35,6 +34,7 @@ h1 {
   bottom: 40px;
   width: 430px;
 
+  letter-spacing: -0.03em;
   font-size: 20px;
   color: pink;
 }
@@ -43,6 +43,7 @@ h2 {
   margin-bottom: 30px;
 
   font-size: 18px;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
 }
 
@@ -63,6 +64,7 @@ h2 {
 
   text-align: center;
   line-height: 67px;
+  letter-spacing: -0.03em;
   text-decoration: none;
 
   color: white;
