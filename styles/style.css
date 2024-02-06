@@ -52,14 +52,14 @@ h1 {
   color: #fff;
 }
 
-.desc {
+.about__desc {
   margin-bottom: 30px;
   width: 1048px;
   
   font-size: 45px;
 }
 
-.about-btn {
+.about__btn {
   display: block;
   width: 255px;
   height: 67px;
