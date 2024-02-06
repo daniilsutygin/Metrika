@@ -38,7 +38,6 @@ h1 {
   width: 430px;
 
   font-size: 20px;
-  letter-spacing: -0.03em;
   color: #fff;
 }
 
@@ -46,7 +45,6 @@ h1 {
   margin-bottom: 30px;
 
   font-size: 18px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
 }
 
@@ -58,7 +56,6 @@ h1 {
   margin-bottom: 30px;
   width: 1048px;
   
-  letter-spacing: -0.03em;
   font-size: 45px;
 }
 
@@ -70,7 +67,6 @@ h1 {
   margin-bottom: 150px;
 
   font-size: 20px;
-  letter-spacing: -0.03em;
   text-align: center;
   line-height: 67px;
   text-decoration: none;
@@ -101,7 +97,6 @@ h1 {
 .projects__text {
   margin-bottom: 15px;
   font-size: 30px;
-  letter-spacing: -0.03em
 }
 
 .projects__link {
@@ -121,7 +116,6 @@ h1 {
   text-align: center;
   line-height: 153px;
   font-size: 30px;
-  letter-spacing: -0.03em;
   color: #AD1818;
   text-decoration: none;
   border: 1px solid #AD1818;
@@ -137,21 +131,21 @@ h1 {
   padding: 150px 0;
 }
 
-.services-item {
+.services__item {
   margin-bottom: 60px;
   width: 100%;
 }
 
-.services-item:last-child {
+.services__item:last-child {
   margin-bottom: 0;
 }
 
-.services-item__img {
+.services__img {
   margin-bottom: 15px;
   width: 100%;
 }
 
-.services-item__text {
+.services__text {
   font-size: 30px;
   letter-spacing: -0.03em;
   color: #fff;
