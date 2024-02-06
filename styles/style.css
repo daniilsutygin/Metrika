@@ -4,26 +4,29 @@ body {
 }
 
 .container {
-  width: 1150px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
+h1, h2, h3, p {
+  letter-spacing: -0.03em;
+}
+
 h1 {
+  width: 956px;
   margin-top: 66px;
   margin-bottom: 30px;
-  width: 956px;
 
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
   color: #121212;
 }
 
 .interior {
   position: relative;
-  margin-bottom: 154px;
   width: 1150px;
   height: 500px;
+  margin-bottom: 154px;
 
   background-image: url('./../resources/header-bg.jpg');
 }
@@ -35,10 +38,11 @@ h1 {
   width: 430px;
 
   font-size: 20px;
+  letter-spacing: -0.03em;
   color: #fff;
 }
 
-h2 {
+.secondary-title {
   margin-bottom: 30px;
 
   font-size: 18px;
@@ -46,27 +50,109 @@ h2 {
   text-transform: uppercase;
 }
 
+.secondary-title_white {
+  color: #fff;
+}
+
 .desc {
   margin-bottom: 30px;
   width: 1048px;
-
+  
   letter-spacing: -0.03em;
   font-size: 45px;
 }
 
-.btn {
+.about-btn {
   display: block;
-  margin-bottom: 150px;
   width: 255px;
   height: 67px;
   border-radius: 5px;
+  margin-bottom: 150px;
 
+  font-size: 20px;
+  letter-spacing: -0.03em;
   text-align: center;
   line-height: 67px;
-  letter-spacing: -0.03em;
   text-decoration: none;
 
   color: white;
   background-color: #AD1818;
 
+}
+
+.projects__item-list {
+  margin-bottom: 90px;
+}
+
+.projects-item {
+  margin-bottom: 90px;
+  width: 100%;
+}
+
+.projects-item:last-child {
+  margin-bottom: 0;
+}
+
+.projects__img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.projects__text {
+  margin-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: -0.03em
+}
+
+.projects__link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #AD1818;
+}
+
+.projects-btn {
+  display: block;
+  margin-bottom: 150px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 153px;
+  transition: all 0.2s ease-in;
+
+  text-align: center;
+  line-height: 153px;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  color: #AD1818;
+  text-decoration: none;
+  border: 1px solid #AD1818;
+}
+
+.projects-btn:hover {
+  background-color: #AD1818;
+  color: #fff;
+}
+
+.section-services {
+  background-color: #121212;
+  padding: 150px 0;
+}
+
+.services-item {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.services-item:last-child {
+  margin-bottom: 0;
+}
+
+.services-item__img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.services-item__text {
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
