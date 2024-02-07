@@ -201,10 +201,6 @@ h1 {
   background-position: 50%;
 }
 
-.container {
-
-}
-
 .section-example__wrap {
   position: relative;
   height: 717px;
@@ -218,4 +214,24 @@ h1 {
   line-height: 41px;
   font-size: 30px;
   color: #fff;
+}
+
+.section-contact {
+  padding: 150px 0;
+}
+
+.section-contact__title-wrapper {
+  position: relative;
+}
+
+.section-contact__title-wrapper::before {
+  content: '';
+
+  display: block;
+  margin-bottom: 15px;
+  width: 13px;
+  height: 22px;
+  background-image: url('./../resources/phone-icon.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
