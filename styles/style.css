@@ -224,7 +224,7 @@ h1 {
   position: relative;
 }
 
-.section-contact__title-wrapper::before {
+.section-contact__wrapper::before {
   content: '';
 
   display: block;
