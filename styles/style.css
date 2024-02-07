@@ -235,3 +235,14 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.phone {
+  margin-bottom: 30px;
+}
+
+.contact__link {
+  font-size: 60px;
+  line-height: 1;
+  color: #121212;
+  text-decoration: none;
+}
