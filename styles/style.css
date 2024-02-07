@@ -4,8 +4,9 @@ body {
 }
 
 .container {
-  max-width: 1150px;
+  max-width: 1180px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 h1 {
@@ -36,7 +37,7 @@ h1 {
 
   letter-spacing: -0.03em;
   font-size: 20px;
-  color: pink;
+  color: #fff;
 }
 
 h2 {
@@ -52,6 +53,7 @@ h2 {
   width: 1048px;
   
   letter-spacing: -0.03em;
+  line-height: 135%;
   font-size: 45px;
 }
 
