@@ -4,12 +4,50 @@ body {
 }
 
 .container {
-  max-width: 1150px;
+  width: 1150px;
   margin: 0 auto;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, a {
   letter-spacing: -0.03em;
+}
+
+.header {
+  padding-top: 32px;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-right: 548px;
+}
+
+.logo {
+  display: block;
+  width: 126px;
+  height: 22px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.nav__link {
+  margin-right: 60px;
+
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #121212;
+}
+
+.nav__link:last-child {
+  margin-right: 0px;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  text-decoration: underline;
 }
 
 h1 {
@@ -56,6 +94,7 @@ h1 {
   margin-bottom: 30px;
   width: 1048px;
   
+  line-height: 135%;
   font-size: 45px;
 }
 
