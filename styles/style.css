@@ -192,3 +192,29 @@ h1 {
   font-size: 30px;
   color: #fff;
 }
+
+.section-example {
+  height: 717px;
+  background-image: url('./../resources/example-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.container {
+
+}
+
+.section-example__wrap {
+  position: relative;
+  height: 717px;
+}
+
+.section-example__text {
+  position: absolute;
+  bottom: 60px;
+  width: 443px;
+
+  font-size: 30px;
+  color: #fff;
+}
