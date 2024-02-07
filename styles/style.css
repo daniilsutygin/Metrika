@@ -45,6 +45,10 @@ h1, h2, h3, p, a {
   color: #121212;
 }
 
+.nav__link_white {
+  color: #fff;
+}
+
 .nav__link:last-child {
   margin-right: 0px;
 }
@@ -245,4 +249,22 @@ h1 {
   line-height: 1;
   color: #121212;
   text-decoration: none;
+}
+
+.footer {
+  padding: 60px 0 30px;
+  background-color: #121212;
+}
+
+.footer-wrap {
+  margin: 0 auto;
+  width: 473px;
+  margin-bottom: 87px;
+}
+
+.footer__text {
+  text-align: center;
+
+  color: #fff;
+  opacity: 0.5;
 }
