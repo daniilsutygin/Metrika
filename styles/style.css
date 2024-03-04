@@ -350,6 +350,14 @@ h2 {
     font-size: 25px;
     line-height: 34px;
   }
+
+  .section-services {
+    padding-bottom: 120px;
+  }
+
+  .services__item-list {
+    row-gap: 80px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -414,6 +422,35 @@ h2 {
   }
 
   .projects__btn {
+    height: 100px;
+    line-height: 100px;
+    font-size: 22px;
+  }
+
+  .section-services {
+    padding: 80px 0;
+  }
+
+  .services__item-list {
+    margin-bottom: 60px;
+    row-gap: 60px;
+  }
+
+  .services__item {
+    width: 100%;
+  }
+  
+  .services__img {
+    margin-bottom: 10px;
+    height: 240px;
+  }
+
+  .services__text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .services__btn {
     height: 100px;
     line-height: 100px;
     font-size: 22px;
