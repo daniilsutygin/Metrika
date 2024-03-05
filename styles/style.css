@@ -268,11 +268,16 @@ h2 {
 .feedback__list-item {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 50px;
   column-gap: 20px;
 }
 
 .feedback__item {
   width: calc(50% - 10px);
+}
+
+.feedback__item-large {
+  width: 863px;
 }
 
 .feedback__title {
