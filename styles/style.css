@@ -548,6 +548,25 @@ h2 {
     font-size: 20px;
     line-height: 27px;
   }
+
+  .example__title {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  
+  .example__slides {
+    height: 536px;
+  }
+
+  .box {
+    height: 536px;
+  }
+
+  .example__desc {
+    width: 377px;
+    font-size: 25px;
+    line-height: 34px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -673,6 +692,40 @@ h2 {
     font-size: 16px;
     line-height: 22px;
   }
+
+  .example__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .example__controls-wrapper {
+    bottom: 50%;
+  }
+
+  .example__controls {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .example__control-prev, .example__control-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .example__slides {
+    height: 408px;
+  }
+
+  .box {
+    height: 408px;
+  }
+
+  .example__desc {
+    width: 287px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+
 }
 
 
