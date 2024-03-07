@@ -7,6 +7,12 @@ body {
   background-color: #F5F5F5;
 }
 
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
 .hide {
   display: none !important;
 }
@@ -291,7 +297,7 @@ h2 {
   line-height: 30px;
 }
 
-.section-example {
+/*.section-example {
   height: 717px;
   background-image: url('./../resources/example-bg.jpg');
   background-repeat: no-repeat;
@@ -302,7 +308,7 @@ h2 {
 .section-example__wrap {
   position: relative;
   height: 717px;
-}
+}*/
 
 .section-example__text {
   position: absolute;
@@ -312,6 +318,126 @@ h2 {
   line-height: 41px;
   font-size: 30px;
   color: #fff;
+}
+
+.exmaple__gallery {
+  position: relative;
+}
+
+.example__title-wrapper {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  z-index: 9;
+}
+
+.example__title {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.example__controls-wrapper {
+  position: absolute;
+  bottom: 162px;
+  width: 100%;
+  z-index: 9;
+}
+
+.example__controls {
+
+}
+
+.example__control-prev {
+  margin-right: 14px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s ease-in;
+  background-image: url('./../resources/left-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.example__control-prev:hover {
+  opacity: 0.5;
+}
+
+.example__control-next {
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s ease-in;
+  background-image: url('./../resources/right-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.example__control-next:hover {
+  opacity: 0.5;
+}
+
+.example__slides {
+  position: relative;
+  height: 717px;
+}
+
+.example__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.example__slide_active {
+  opacity: 1;
+}
+
+.box {
+  height: 717px;
+}
+
+.box_apartment {
+  background-image: url('./../resources/example-apartment.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.box_lounge {
+  background-image: url('./../resources/example-lounge.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.box_kitchen-living {
+  background-image: url('./../resources/example-kitchen-living.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.box_kitchen {
+  background-image: url('./../resources/example-kitchen.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.example__desc-wrapper {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+}
+
+.example__desc {
+  width: 443px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 41px;
 }
 
 .section-contact {
