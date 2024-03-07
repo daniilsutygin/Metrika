@@ -502,16 +502,37 @@ h2 {
 .footer {
   padding: 60px 0 30px;
   background-color: #121212;
+  font-size: 20px;
+  line-height: 27px;
 }
 
 .footer__nav {
-  width: 473px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 87px;
+}
+
+.footer__link {
+  display: block;
+  margin-right: 50px;
+  padding: 5px;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer__link:last-child {
+  margin-right: 0px;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
 }
 
 .footer__text {
   display: block;
-  margin-top: 87px;
   text-align: center;
 
   color: #fff;
@@ -525,6 +546,11 @@ h2 {
   .container {
     width: 100%;
     padding: 0 15px;
+  }
+
+  .nav__link {
+    font-size: 18px;
+    line-height: 25px;
   }
 
   h1 {
@@ -603,6 +629,11 @@ h2 {
   .contact__link {
     font-size: 45px;
     line-height: 60px;
+  }
+
+  .footer__text {
+    font-size: 20px;
+    line-height: 27px;
   }
 }
 
@@ -776,6 +807,25 @@ h2 {
     margin-bottom: 20px;
   }
 
+  .footer {
+    padding-top: 30px;
+  }
+
+  .footer__nav {
+    margin-bottom: 40px;
+  }
+
+  .footer__link {
+    margin-right: 30px;
+
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .footer__text {
+    font-size: 13px;
+    line-height: 18px;
+  }
 }
 
 
