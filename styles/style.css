@@ -471,7 +471,7 @@ h1, h2, h3, p, a, button {
   padding: 150px 0;
 }
 
-.feedback__list-item {
+.feedback__item-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 50px;
@@ -567,7 +567,9 @@ h1, h2, h3, p, a, button {
   top: 0;
   left: 0;
   width: 100%;
+
   opacity: 0;
+  transition: all 0.1s ease-in;
 }
 
 .example__slide_active {
@@ -981,7 +983,7 @@ h1, h2, h3, p, a, button {
     padding: 80px 0;
   }
 
-  .feedback__list-item {
+  .feedback__item-list {
     row-gap: 80px;
   }
 
