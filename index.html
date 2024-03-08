@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
   <script src="./js/gallery.js" defer></script>
+  <script src="./js/popup.js" defer></script>
 </head>
 <body>
 
@@ -123,7 +124,17 @@
           </li>
           
         </ul>
-        <button class="services__btn">Заказать услугу</button>
+        <button class="services__btn" id="services__btn">Заказать услугу</button>
+        <div class="popup" id="popup">
+          <div class="popup__content" id="popup__content">
+            <div class="popup__close-btn" id="popup__close-btn"></div>
+            <div class="popup__text-wrapper">
+              <p class="popup__title">Заказать услугу</p>
+              <p class="pupup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+            </div>
+            <button class="popup__btn">Отправить</button>
+          </div>
+        </div>
       </div>
       
     </section>
