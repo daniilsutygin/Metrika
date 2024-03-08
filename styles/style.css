@@ -12,9 +12,10 @@ body {
 }
 
 button {
+  padding: 0;
+
   background: none;
   border: none;
-  padding: 0;
   font-family: 'Manrope', sans-serif;
 }
 
@@ -25,10 +26,9 @@ button {
 .container {
   width: 1180px;
   margin: 0 auto;
-  /*padding: 0 15px;*/
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, button {
   letter-spacing: -0.03em;
 }
 
@@ -36,9 +36,10 @@ h1, h2, h3, p, a {
   padding-top: 32px;
 }
 
-.menu {
+.header__menu {
   position: relative;
   margin-bottom: 66px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,8 +80,10 @@ h1, h2, h3, p, a {
   z-index: 9;
   width: 100%;
   height: 100%;
+
   display: flex;
   justify-content: end;
+
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
   visibility: hidden;
@@ -97,6 +100,7 @@ h1, h2, h3, p, a {
   width: 80%;
   max-height: 100%;
   overflow-y: scroll;
+
   background-color: #fff;
 }
 
@@ -120,22 +124,10 @@ h1, h2, h3, p, a {
   line-height: 34px;
 }
 
-.burger-contact {
-
-}
-
 .burger-contact__text {
   font-size: 16px;
   line-height: 22px;
   opacity: 0.5;
-}
-
-.burger-contact__links {
-
-}
-
-.burger-contact__phone {
-
 }
 
 .burger-contact__link {
@@ -143,10 +135,6 @@ h1, h2, h3, p, a {
   font-size: 20px;
   line-height: 45px;
   text-decoration: none;
-}
-
-.burger-contact__email {
-
 }
 
 .burger-btn {
@@ -165,9 +153,9 @@ h1 {
 
 .header__img {
   position: relative;
+  margin-bottom: 154px;
   width: 100%;
   height: 500px;
-  margin-bottom: 154px;
 
   background-image: url('./../resources/header-bg.jpg');
   background-repeat: no-repeat;
@@ -186,7 +174,7 @@ h1 {
   color: #fff;
 }
 
-h2 {
+.secondary-title {
   margin-bottom: 30px;
 
   line-height: 25px;
@@ -199,7 +187,7 @@ h2 {
   color: #fff;
 }
 
-.section-about {
+.about {
   margin-bottom: 150px;
 }
 
@@ -226,7 +214,7 @@ h2 {
   background-color: #AD1818;
 }
 
-.section-projects {
+.projects {
   margin-bottom: 150px;
 }
 
@@ -282,17 +270,17 @@ h2 {
   color: #fff;
 }
 
-.section-services {
+.services {
   background-color: #121212;
   padding: 150px 0;
 }
 
 .services__item-list {
   display: flex;
-  margin-bottom: 108px;
   flex-wrap: wrap;
   column-gap: 10px;
   row-gap: 85px;
+  margin-bottom: 108px;
 }
 
 .services__item {
@@ -314,11 +302,14 @@ h2 {
   position: absolute;
   top: 30px;
   left: 30px;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 0 20px;
   height: 40px;
+
   border-radius: 5px;
   background-color: #AD1818;
 }
@@ -337,7 +328,7 @@ h2 {
 
 .services__btn {
   width: 100%;
-  transition: all 0.2s ease-in;
+  
   border-radius: 5px;
   border: 1px solid #AD1818;
   background-color: #AD1818;
@@ -346,6 +337,8 @@ h2 {
   line-height: 153px;
   color: #fff;
   cursor: pointer;
+
+  transition: all 0.2s ease-in;
 }
 
 .services__btn:hover {
@@ -359,13 +352,17 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 15px;
+  
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
   visibility: hidden;
+
   transition: all 0.3s ease-in;
 }
 
@@ -379,9 +376,11 @@ h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
+
   padding: 94px 79px 86px 55px;
   width: 777px;
   max-height: 100%;
+
   overflow-y: scroll;
   background-color: #fff;
   border-radius: 10px;
@@ -391,8 +390,10 @@ h2 {
   position: absolute;
   right: 30px;
   top: 30px;
+
   width: 40px;
   height: 40px;
+
   background-image: url('./../resources/close-btn.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -405,6 +406,7 @@ h2 {
 
 .popup__title {
   margin-bottom: 5px;
+
   font-size: 45px;
   line-height: 61px;
 }
@@ -422,6 +424,7 @@ h2 {
   display: block;
   margin-bottom: 50px;
   width: 100%;
+
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   font-size: 25px;
@@ -439,6 +442,7 @@ h2 {
 .popup__btn {
   width: 100%;
   height: 67px;
+  
   border-radius: 5px;
   background-color: #AD1818;
   color: #fff;
@@ -447,7 +451,7 @@ h2 {
   cursor: pointer;
 }
 
-.section-feedback {
+.feedback {
   padding: 150px 0;
 }
 
@@ -462,7 +466,7 @@ h2 {
   width: calc(50% - 10px);
 }
 
-.feedback__item-large {
+.feedback__item_large {
   width: 863px;
 }
 
@@ -477,29 +481,6 @@ h2 {
   line-height: 30px;
 }
 
-/*.section-example {
-  height: 717px;
-  background-image: url('./../resources/example-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-}
-
-.section-example__wrap {
-  position: relative;
-  height: 717px;
-}*/
-
-.section-example__text {
-  position: absolute;
-  bottom: 60px;
-  width: 443px;
-
-  line-height: 41px;
-  font-size: 30px;
-  color: #fff;
-}
-
 .exmaple__gallery {
   position: relative;
 }
@@ -507,8 +488,8 @@ h2 {
 .example__title-wrapper {
   position: absolute;
   top: 60px;
-  width: 100%;
   z-index: 9;
+  width: 100%;
 }
 
 .example__title {
@@ -521,23 +502,21 @@ h2 {
 .example__controls-wrapper {
   position: absolute;
   bottom: 162px;
-  width: 100%;
   z-index: 9;
-}
-
-.example__controls {
-
+  width: 100%;
 }
 
 .example__control-prev {
   margin-right: 14px;
   width: 40px;
   height: 40px;
-  transition: all 0.2s ease-in;
+
   background-image: url('./../resources/left-arrow.svg');
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+
+  transition: all 0.2s ease-in;
 }
 
 .example__control-prev:hover {
@@ -547,11 +526,13 @@ h2 {
 .example__control-next {
   width: 40px;
   height: 40px;
-  transition: all 0.2s ease-in;
+
   background-image: url('./../resources/right-arrow.svg');
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+
+  transition: all 0.2s ease-in;
 }
 
 .example__control-next:hover {
@@ -620,25 +601,13 @@ h2 {
   line-height: 41px;
 }
 
-.section-contact {
+.contact {
   padding: 150px 0;
 }
 
 .contact__title-wrapper {
   position: relative;
 }
-
-/*.contact__wrapper::before {
-  content: '';
-
-  display: block;
-  margin-bottom: 15px;
-  width: 13px;
-  height: 22px;
-  background-image: url('./../resources/phone-icon.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
 
 .contact__links {
   display: flex;
@@ -648,30 +617,35 @@ h2 {
 
 .contact__phone:before {
   content: '';
+
   display: block;
   margin-bottom: 26px;
   width: 24px;
   height: 24px;
+
   background-image: url('./../resources/phone-icon.svg');
   background-repeat: no-repeat;
 }
 
 .contact__email:before {
   content: '';
+
   display: block;
   margin-bottom: 26px;
   width: 24px;
   height: 24px;
+
   background-image: url('./../resources/mail-icon.svg');
   background-repeat: no-repeat;
 }
 
 .contact__link {
-  transition: all 0.2s ease-in;
   font-size: 60px;
   line-height: 1;
   color: #121212;
   text-decoration: none;
+
+  transition: all 0.2s ease-in;
 }
 
 .contact__link:hover {
@@ -681,6 +655,7 @@ h2 {
 
 .footer {
   padding: 60px 0 30px;
+
   background-color: #121212;
   font-size: 20px;
   line-height: 27px;
@@ -696,11 +671,13 @@ h2 {
   display: block;
   margin-right: 50px;
   padding: 5px;
-  transition: all 0.2s ease-in;
+
   text-decoration: none;
   color: #fff;
   font-size: 18px;
   line-height: 25px;
+
+  transition: all 0.2s ease-in;
 }
 
 .footer__link:last-child {
@@ -741,9 +718,11 @@ h2 {
     position: absolute;
     right: 15px;
     z-index: 10;
+
     display: block;
     width: 50px;
     height: 10px;
+
     background-image: url('./../resources/burger-menu-icon.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -752,6 +731,7 @@ h2 {
   .burger-btn_open {
     width: 34px;
     height: 34px;
+
     background-image: url('./../resources/burger-close-btn.svg');
   }
 
@@ -764,17 +744,18 @@ h2 {
     margin-bottom: 120px;
   }
 
-  .section-about {
+  .about {
     margin-bottom: 120px;
   }
 
   .about__desc {
     width: 690px;
+
     font-size: 35px;
     line-height: 48px;
   }
 
-  .section-projects {
+  .projects {
     margin-bottom: 120px;
   }
 
@@ -783,7 +764,7 @@ h2 {
     line-height: 34px;
   }
 
-  .section-services {
+  .services {
     padding-bottom: 120px;
   }
 
@@ -791,7 +772,7 @@ h2 {
     row-gap: 80px;
   }
 
-  .section-feedback {
+  .feedback {
     padding: 120px 0;
   }
 
@@ -820,11 +801,12 @@ h2 {
 
   .example__desc {
     width: 377px;
+
     font-size: 25px;
     line-height: 34px;
   }
 
-  .section-contact {
+  .contact {
     padding: 120px 0 80px;
   }
 
@@ -843,6 +825,7 @@ h2 {
   h1 {
     margin-bottom: 25px;
     width: 100%;
+
     font-size: 30px;
     line-height: 31.8px;
   }
@@ -854,10 +837,11 @@ h2 {
   }
 
   .header__text {
-    padding-right: 20px;
-    width: 100%;
     left: 15px;
     bottom: 15px;
+    padding-right: 20px;
+    width: 100%;
+
     font-size: 16px;
     line-height: 22px;
   }
@@ -866,23 +850,25 @@ h2 {
     margin-bottom: 20px;
   }
 
-  .section-about {
+  .about {
     margin-bottom: 80px;
   }
 
   .about__desc {
     width: 100%;
+
     font-size: 22px;
     line-height: 30px;
   }
 
   .about__btn {
     width: 100%;
+
     height: 51px;
     line-height: 51px;
   }
 
-  .section-projects {
+  .projects {
     margin-bottom: 80px;
   }
 
@@ -902,11 +888,12 @@ h2 {
 
   .projects__btn {
     height: 100px;
+
     line-height: 100px;
     font-size: 22px;
   }
 
-  .section-services {
+  .services {
     padding: 80px 0;
   }
 
@@ -936,6 +923,7 @@ h2 {
 
   .services__btn {
     height: 100px;
+
     line-height: 100px;
     font-size: 22px;
   }
@@ -960,11 +948,12 @@ h2 {
 
   .popup__input {
     margin-bottom: 40px;
+
     font-size: 18px;
     line-height: 25px;
   }
 
-  .section-feedback {
+  .feedback {
     padding: 80px 0;
   }
 
@@ -978,6 +967,7 @@ h2 {
 
   .feedback__title {
     margin-bottom: 10px;
+
     font-size: 25px;
     line-height: 34px;
   }
@@ -1016,6 +1006,7 @@ h2 {
 
   .example__desc {
     width: 287px;
+
     font-size: 19px;
     line-height: 26px;
   }
