@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
   <script src="./js/gallery.js" defer></script>
-  <script src="./js/popup.js" defer></script>
+  <script src="./js/app.js" defer></script>
 </head>
 <body>
 
@@ -19,7 +19,7 @@
 
     <div class="container">
 
-      <div class="menu hide">
+      <div class="menu">
         <a href="/" class="logo-link">
           <img src="./resources/logo.png" alt="Логотип Метрика" class="logo">
         </a>
@@ -29,6 +29,33 @@
           <a href="#services" class="nav__link">УСЛУГИ</a>
           <a href="#contact" class="nav__link">КОНТАКТЫ</a>
         </nav>
+        <button class="burger-btn" id="burger-btn"></button>
+      </div>
+      <div class="burger" id="burger">
+        <div class="burger__content" id="burger__content">
+          <div class="burger__menu">
+            <a href="/" class="logo-link">
+              <img src="./resources/logo.png" alt="Логотип Метрика" class="logo logo_burger">
+            </a>
+            <nav class="burger-nav">
+              <a href="#about" class="burger-nav__link">О НАС</a>
+              <a href="#projects" class="burger-nav__link">ПРОЕКТЫ</a>
+              <a href="#services" class="burger-nav__link">УСЛУГИ</a>
+              <a href="#contact" class="burger-nav__link">КОНТАКТЫ</a>
+            </nav>
+            <div class="burger-contact">
+              <p class="burger-contact__text">для связи:</p>
+              <div class="burger-contact__links">
+                <p class="burger-contact__phone">
+                  <a href="tel:+79358954535" class="burger-contact__link">+7 935  895-45-35</a>
+                </p>
+                <p class="burger-contact__email">
+                  <a href="mailto:hello@mail.com" class="burger-contact__link">hello@mail.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <h1>Современные и стильные интерьеры для комфортной жизни</h1>
