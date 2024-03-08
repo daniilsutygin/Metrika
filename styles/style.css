@@ -19,9 +19,11 @@ button {
   font-family: 'Manrope', sans-serif;
 }
 
-.hide {
+/* класс hide скрывает эллемент на странице */
+
+/*.hide {
   display: none !important;
-}
+}*/
 
 .container {
   width: 1180px;
@@ -31,6 +33,31 @@ button {
 h1, h2, h3, p, a, button {
   letter-spacing: -0.03em;
 }
+
+.main-title {
+  width: 956px;
+  margin-bottom: 30px;
+
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.secondary-title {
+  margin-bottom: 30px;
+
+  line-height: 25px;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.secondary-title_white {
+  color: #fff;
+}
+
+/* =================== Header ================ */
 
 .header {
   padding-top: 32px;
@@ -72,6 +99,8 @@ h1, h2, h3, p, a, button {
   opacity: 0.5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
+
+/* Menu burger */
 
 .burger {
   position: fixed;
@@ -141,16 +170,6 @@ h1, h2, h3, p, a, button {
   display: none;
 }
 
-h1 {
-  width: 956px;
-  margin-bottom: 30px;
-
-  font-size: 60px;
-  line-height: 60px;
-  letter-spacing: -0.03em;
-  color: #121212;
-}
-
 .header__img {
   position: relative;
   margin-bottom: 154px;
@@ -174,18 +193,7 @@ h1 {
   color: #fff;
 }
 
-.secondary-title {
-  margin-bottom: 30px;
-
-  line-height: 25px;
-  font-size: 18px;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-}
-
-.secondary-title_white {
-  color: #fff;
-}
+/* =================== Section About ================ */
 
 .about {
   margin-bottom: 150px;
@@ -213,6 +221,8 @@ h1 {
   color: white;
   background-color: #AD1818;
 }
+
+/* =================== Section Projects ================ */
 
 .projects {
   margin-bottom: 150px;
@@ -269,6 +279,8 @@ h1 {
   background-color: #AD1818;
   color: #fff;
 }
+
+/* =================== Section Services ================ */
 
 .services {
   background-color: #121212;
@@ -345,6 +357,8 @@ h1 {
   background-color: #121212;
   color: #AD1818;
 }
+
+/* Popup */
 
 .popup {
   position: fixed;
@@ -451,6 +465,8 @@ h1 {
   cursor: pointer;
 }
 
+/* =================== Section Feedback ================ */
+
 .feedback {
   padding: 150px 0;
 }
@@ -480,6 +496,8 @@ h1 {
   font-size: 22px;
   line-height: 30px;
 }
+
+/* =================== Section Example ================ */
 
 .exmaple__gallery {
   position: relative;
@@ -601,6 +619,8 @@ h1 {
   line-height: 41px;
 }
 
+/* =================== Section Contact ================ */
+
 .contact {
   padding: 150px 0;
 }
@@ -653,6 +673,8 @@ h1 {
   border-bottom: 1px solid rgba(18, 18, 18, 0.5);
 }
 
+/* =================== Section Footer ================ */
+
 .footer {
   padding: 60px 0 30px;
 
@@ -697,8 +719,9 @@ h1 {
 }
 
 
-/* Адаптив */
+/* =================== Adaptive ================ */
 
+/* width 1199px */
 @media (max-width: 1199px) {
   .container {
     width: 100%;
@@ -821,6 +844,7 @@ h1 {
   }
 }
 
+/* width 767px */
 @media (max-width: 767px) {
   h1 {
     margin-bottom: 25px;
