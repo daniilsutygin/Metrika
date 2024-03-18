@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
+  <script src="./js/phoneMask/mask.js" defer></script>
+  <script src="./js/phoneMask/mask_list.js" defer></script>
   <script src="./js/gallery.js" defer></script>
   <script src="./js/app.js" defer></script>
 </head>
@@ -162,7 +164,7 @@
             <form class="popup__form">
               <input type="text" class="popup__input" placeholder="Имя">
               <input type="text" class="popup__input" placeholder="Электронная почта">
-              <input type="text" class="popup__input" placeholder="Номер телефона">
+              <input data-tel-input type="text" class="popup__input" placeholder="Номер телефона">
             </form>
             <button class="popup__btn">Отправить</button>
           </div>
