@@ -1,7 +1,6 @@
 const ACTIVE_SLIDE_CLASSNAME = 'example__slide_active';
 
 const slidesNodes = Array.from(document.querySelectorAll('.example__slide'));
-console.log(slidesNodes);
 const prevButtonNode = document.querySelector('.example__control-prev');
 const nextButtonNode = document.querySelector('.example__control-next');
 let activeId;
@@ -10,7 +9,6 @@ init();
 
 function init() {
     activeId = 0;
-    console.log('test')
     
     prevButtonNode.addEventListener('click', () => {
         setActiveSlideById(getPrevId());
